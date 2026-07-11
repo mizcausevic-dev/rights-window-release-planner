@@ -167,7 +167,7 @@ function renderHero(active: string) {
     { href: "/docs", label: "Docs" }
   ];
 
-  return `${topbar()}
+  return `${topbar(active)}
   <div class="herorow">
     <section class="hero">
       <div class="chiprow">
